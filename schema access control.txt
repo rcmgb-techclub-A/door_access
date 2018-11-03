@@ -1,0 +1,27 @@
+create table RCMGB.People
+PeopleID INT primary key NOT NULL, 
+FirstName CHAR(32) NOT NULL,
+LastName CHAR(32) NOT NULL,
+DOB INT NOT NULL,
+AssociationID INT NOT NULL
+
+create table RCMGB.AccessLookUp
+AccessID INT primary key NOT NULL,
+DisplayName CHAR(64) NOT NULL,
+AdminName CHAR(64) NOT NULL
+
+create table RCMGB.ActivityLog
+ActivityID INT primary key NOT NULL,
+PeopleID INT NOT NULL, 
+EntryTS INT NOT NULL,
+ExitTS INT
+
+create table RCMGB.AssociationLookUp
+AssociationID INT primary key NOT NULL,
+AssociationName CHAR(64) NOT NULL
+
+create table RCMGB.AccessWK
+AccessWorkID CHAR(64) primary key NOT NULL
+
+create table RCMGB.AssociationWK
+AssociationWorkID CHAR(64) primary key NOT NULL
