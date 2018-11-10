@@ -1,0 +1,11 @@
+Insert into People values(1,"Stephen", "Haseldine", "1970");
+Insert into People values(2,"Kirstin" ,"Woodward", "1970");
+Insert into People values(3,"Scott", "Davis", "1987");
+Insert into People values(4,"Jack", "Brocklehurst-Read", "2004");
+Insert into People values(5,"Oliver", "Edmonds", "2004");
+Insert into People values(6,"Bilal", "Rifki", "2007");
+Insert into People values(7,"Alice", "Woodward", "2004");
+Insert into People values(8,"Benjamin", "Williams", "2006");
+Insert into People values(9,"Ciaran", "Ashworth", "2003");
+Insert into People values(10,"Mark", "Millward", "1970");
+Insert into People values(11,"Karen", "Haseldine", "1970");
